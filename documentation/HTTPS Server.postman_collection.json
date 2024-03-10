@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "7b1f4821-a11e-47b7-9e1c-e19911f4fa96",
+		"name": "HTTPS Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Index",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-CSRF-Token",
+						"value": "rb3WeduhO1FUeF/3uS/KR1q/j9c+OZVHaDFedXxvbotgmEtPVpvtAnR13xc34UjIbvs5BzUN/Wr/hynA3hIssA==",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:8080",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Index",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-CSRF-Token",
+						"value": "rb3WeduhO1FUeF/3uS/KR1q/j9c+OZVHaDFedXxvbotgmEtPVpvtAnR13xc34UjIbvs5BzUN/Wr/hynA3hIssA==",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:8080",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Index",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-CSRF-Token",
+						"value": "rb3WeduhO1FUeF/3uS/KR1q/j9c+OZVHaDFedXxvbotgmEtPVpvtAnR13xc34UjIbvs5BzUN/Wr/hynA3hIssA==",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:8080",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Index",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "X-CSRF-Token",
+						"value": "rb3WeduhO1FUeF/3uS/KR1q/j9c+OZVHaDFedXxvbotgmEtPVpvtAnR13xc34UjIbvs5BzUN/Wr/hynA3hIssA==",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:8080",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		}
+	]
+}

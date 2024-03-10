@@ -105,6 +105,10 @@ O servidor usa o pacote Gorilla CSRF para fornecer proteção contra ataques CSR
 
 Todas as rotas POST, PUT, DELETE e PATCH são protegidas pelo middleware CSRF, garantindo que apenas solicitações legítimas possam realizar essas ações.
 
+### HTTP/2 (Performance)
+
+HTTP/2 é a segunda versão principal do protocolo HTTP (Hyper Text Transfer Protocol), que forma a base da World Wide Web. Ele foi desenvolvido para resolver alguns problemas que existiam na versão 1.1, principalmente com relação à performance.
+
 ### Modo de Produção
 
 O servidor é configurado para rodar no modo de produção do Gin, o que significa que ele não exibirá mensagens de erro detalhadas que poderiam potencialmente expor informações sensíveis.
