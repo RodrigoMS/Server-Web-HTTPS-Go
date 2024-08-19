@@ -7,6 +7,10 @@
 	"item": [
 		{
 			"name": "Index",
+			"protocolProfileBehavior": {
+				"followRedirects": true,
+				"strictSSL": false
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -31,7 +35,7 @@
 				"header": [
 					{
 						"key": "X-CSRF-Token",
-						"value": "rb3WeduhO1FUeF/3uS/KR1q/j9c+OZVHaDFedXxvbotgmEtPVpvtAnR13xc34UjIbvs5BzUN/Wr/hynA3hIssA==",
+						"value": "6qG1fPLXE9FSSO8+KZJYro2qbuIKs3FXLxADbuFAehwXlwVRKBt1VtsPMgDWOk9y/lzNnWxrYp4K8zn4n5jPLQ==",
 						"type": "default"
 					}
 				],
